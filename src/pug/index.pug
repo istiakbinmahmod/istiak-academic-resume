@@ -22,6 +22,15 @@ html(lang='en')
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
+        // Google tag (gtag.js)
+        script(async src='https://www.googletagmanager.com/gtag/js?id=G-PFMTNQ6PF1')
+        script.
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-PFMTNQ6PF1');
+
         // <script src="https://cdn.optimizely.com/js/6371880462974976.js"></script>
         // <script src="https://istiakbinmahmod.com/js/6371880462974976.js"></script>
 
